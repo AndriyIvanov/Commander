@@ -8,7 +8,7 @@
 ChooseDiskWindow::ChooseDiskWindow(short X, short Y, char CurrentDisk)
 {
 	Height_ = 6;		//Высота окна
-	Width_ = 27;		//Ширина окна
+	Width_ = 30;		//Ширина окна
 	X_ = X;				//Координата Х левого верхнего угла
 	Y_ = Y;				//Координата Y левого верхнего угла
 	Background_ = 4;	//Цвет фона - бордовый
@@ -81,7 +81,6 @@ void ChooseDiskWindow::ChooseDisk_()
 		if (n == 1)
 			letters_.push_back(char(65 + i));
 	}
-//	ChoosedDisk_ = letters_[0];
 }
 
 
